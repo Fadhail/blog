@@ -4,7 +4,7 @@
             <div class="flex flex-wrap ">
                 <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
                     <div class="relative lg:max-w-md">
-                        <img src="https://cdn.timesmedia.co.id/images/2020/03/07/bikini-bottom.jpg" alt="aboutimage"
+                        <img src="assets/banana.jpg" alt="aboutimage"
                             class="relative z-10 object-cover w-full rounded h-96">
                         <div
                             class="absolute bottom-0 right-0 z-10 p-8 bg-white border-4 border-blue-500 rounded shadow dark:border-blue-400 lg:-mb-8 lg:-mr-11 sm:p-8 dark:text-gray-300 dark:bg-gray-800 ">
@@ -15,7 +15,7 @@
                                     <path
                                         d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z">
                                     </path>
-                                </svg> Successfully Providing business solutions from 25 years
+                                </svg> Banana Union Blog
                             </p>
                         </div>
                     </div>
@@ -28,24 +28,44 @@
                         </h1>
                     </div>
                     <p class="mb-6 text-base leading-7 text-gray-500 dark:text-gray-400">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit
-                        amet. labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit
-                        amet. amet. labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit
-                        amet.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        Lorem ipsum dolor sit amet.
+                        This website was created to fulfill the assessment assignment for the technological literacy course created by:
+                        <br>
+                        1. Mochammad Fadhail Fijratullah
+                        <br>
+                        2. Muhamad Saladin Eka Septian
+                        <br>
+                        3. Aghni Hasna Mufida
+                        <br>
+                        4. Indra Agustin
+                        <br>
+                        5. Muhamad Agung Ihsannudin
+                        <br>
+                        6. Muhammad Hilmi Romadoni
+                        <br>
+                        7. Zahra Dia Handoko
+                        <br>
+                        8. Fardhan Raihan Daswara
+
                     </p>
                     <a href="/admin"
                         class="px-4 py-2 text-gray-100 bg-blue-500 rounded dark:bg-blue-400 dark:hover:bg-blue-500 hover:bg-blue-600">
-                        Learn more
+                        Add Blog
                     </a>
                 </div>
             </div>
         </div>
     </section>
+    
+    {{-- Card --}}
     <section class="flex items-center bg-gray-100 lg:h-screen dark:bg-gray-800">
+        <div class="container px-6 mx-auto">
+            <div class="text-center">
+                <h1 class="text-2xl pb- 8font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Recent Post</h1>
+    
+                <p class="max-w-lg pb-8 mx-auto mt-4 text-gray-500">
+                    Post that has been created 
+                </p>
+            </div>
         <div class="p-4 mx-auto max-w-7xl">
             <div class="grid grid-cols-1 gap-4 lg:gap-8 sm:gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 @forelse ($posts as $post)
